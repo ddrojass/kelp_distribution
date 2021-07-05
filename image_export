@@ -1,0 +1,160 @@
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: geometry,
+  folder: 'raster_costa'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: geometry,
+  folder: 'raster_costa'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: geometry,
+  folder: 'raster_costa'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: geometry,
+  folder: 'raster_costa'                     
+});
