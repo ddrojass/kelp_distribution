@@ -1,0 +1,1029 @@
+ //Original images to byte 
+var summer15 = summer15.multiply(512).uint8()
+var autumn16 = autumn16.multiply(512).uint8()
+var winter16 = winter16.multiply(512).uint8()
+var spring16 = spring16.multiply(512).uint8()
+var summer16 = summer16.multiply(512).uint8()
+var autumn17 = autumn17.multiply(512).uint8()
+var winter17 = winter17.multiply(512).uint8()
+var spring17 = spring17.multiply(512).uint8()
+var summer17 = summer17.multiply(512).uint8()
+var autumn18 = autumn18.multiply(512).uint8()
+var winter18 = winter18.multiply(512).uint8()
+var spring18 = spring18.multiply(512).uint8()
+var summer18 = summer15.multiply(512).uint8()
+var autumn19 = autumn16.multiply(512).uint8()
+var winter19 = winter16.multiply(512).uint8()
+var spring19 = spring16.multiply(512).uint8()
+var summer19 = summer15.multiply(512).uint8()
+var autumn20 = autumn16.multiply(512).uint8()
+var winter20 = winter16.multiply(512).uint8()
+var spring20 = spring16.multiply(512).uint8()
+
+//Visualization
+Map.addLayer(summer15, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Summer 2015'); //
+Map.addLayer(autumn16, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Autumn 2016'); //
+Map.addLayer(winter16, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Winter 2016'); //
+Map.addLayer(spring16, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Spring 2016'); //
+Map.addLayer(summer16, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Summer 2016'); //
+Map.addLayer(autumn17, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Autumn 2017'); //
+Map.addLayer(winter17, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Winter 2017'); //
+Map.addLayer(spring17, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Spring 2017'); //
+Map.addLayer(summer17, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Summer 2017'); //
+Map.addLayer(autumn18, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Autumn 2018'); //
+Map.addLayer(winter18, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Winter 2018'); //
+Map.addLayer(spring18, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Spring 2018'); //
+Map.addLayer(summer18, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Summer 2018'); //
+Map.addLayer(autumn19, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Autumn 2019'); //
+Map.addLayer(winter19, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Winter 2019'); //
+Map.addLayer(spring19, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Spring 2019'); //
+Map.addLayer(summer19, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Summer 2019'); //
+Map.addLayer(autumn20, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Autumn 2020'); //
+Map.addLayer(winter20, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Winter 2020'); //
+Map.addLayer(spring20, {min: 1, max: 15, palette: [ 'darkgreen', 'green', 'yellow', 'orange', 'red', 'darkred']}, 'Spring 2020'); //
+
+
+//Set center and scale 
+Map.setCenter(-70.60514, -23.46448, 16)     //Algarrobo
+
+
+///// Exporting images peninsula_antofagasta
+
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring19,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer19,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn20,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter20,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring20,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: peninsula_antofagasta,
+  folder: 'peninsula_antofagasta'                     
+});
+
+///// Exporting images playas_blancas
+
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: playas_blancas,
+  folder: 'playas_blancas'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: playas_blancas,
+  folder: 'playas_blancas'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring19,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer19,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn20,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter20,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: playas_blancas,
+  folder: 'playas_blancas'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring20,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: playas_blancas,
+  folder: 'playas_blancas'                     
+});
+
+///// Exporting images hornillo
+
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: hornillo,
+  folder: 'hornillo'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: hornillo,
+  folder: 'hornillo'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring19,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer19,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn20,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter20,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: hornillo,
+  folder: 'hornillo'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring20,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: hornillo,
+  folder: 'hornillo'                     
+});
+
+///// Exporting images algarrobo
+
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: algarrobo,
+  folder: 'algarrobo'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: algarrobo,
+  folder: 'algarrobo'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring19,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer19,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn20,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter20,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: algarrobo,
+  folder: 'algarrobo'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring20,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: algarrobo,
+  folder: 'algarrobo'                     
+});
+
+///// Exporting images lebu
+
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: lebu,
+  folder: 'lebu'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: lebu,
+  folder: 'lebu'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring19,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer19,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn20,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter20,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: lebu,
+  folder: 'lebu'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring20,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: lebu,
+  folder: 'lebu'                     
+});
+
+///// Exporting images caleta_huiro
+
+///summer15
+Export.image.toDrive({
+  image: summer15,
+  description: 'summer15',   
+  scale: 10,                            
+  region: caleta_huiro,
+  folder: 'caleta_huiro'
+});
+///autumn16
+Export.image.toDrive({
+  image: autumn16,                 
+  description: 'autumn16',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'
+});
+///winter16
+Export.image.toDrive({
+  image: winter16,                 
+  description: 'winter16',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///spring16
+Export.image.toDrive({
+  image: spring16,                 
+  description: 'spring16',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///summer16
+Export.image.toDrive({
+  image: summer16,                 
+  description: 'summer16',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///autumn17
+Export.image.toDrive({
+  image: autumn17,                 
+  description: 'autumn17',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///winter17
+Export.image.toDrive({
+  image: winter17,                 
+  description: 'winter17',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///spring17
+Export.image.toDrive({
+  image: spring17,                 
+  description: 'spring17',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///summer17
+Export.image.toDrive({
+  image: summer17,                 
+  description: 'summer17',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///autumn18
+Export.image.toDrive({
+  image: autumn18,                 
+  description: 'autumn18',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///winter18
+Export.image.toDrive({
+  image: winter18,                 
+  description: 'winter18',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///spring18
+Export.image.toDrive({
+  image: spring18,                 
+  description: 'spring18',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///summer18
+Export.image.toDrive({
+  image: summer18,                 
+  description: 'summer18',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///autumn19
+Export.image.toDrive({
+  image: autumn19,                 
+  description: 'autumn19',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///winter19
+Export.image.toDrive({
+  image: winter19,                      
+  description: 'winter19',   
+  scale: 10,                           
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                    
+});
+///spring19
+Export.image.toDrive({
+  image: spring19,                 
+  description: 'spring19',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///summer19
+Export.image.toDrive({
+  image: summer19,                 
+  description: 'summer19',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///autumn20
+Export.image.toDrive({
+  image: autumn20,                 
+  description: 'autumn20',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+///winter20
+Export.image.toDrive({
+  image: winter20,                      
+  description: 'winter20',   
+  scale: 10,                           
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                    
+});
+///spring20
+Export.image.toDrive({
+  image: spring20,                 
+  description: 'spring20',  
+  scale: 10,                         
+  region: caleta_huiro,
+  folder: 'caleta_huiro'                     
+});
+
+
+
