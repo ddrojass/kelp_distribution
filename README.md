@@ -1,3 +1,3 @@
 # kelp_distribution
 
-main scripts throughout the BIO295 project
+main scripts used throughout the BIO295A project for the distribution of Macrocystis pyrifera
