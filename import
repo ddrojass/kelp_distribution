@@ -1,0 +1,104 @@
+var PUNTOS = /* color: #00ffff */ee.Geometry.MultiPoint(
+        [[-70.60514, -23.46448],
+         [-71.16405, -28.2081],
+         [-71.6343, -31.2652],
+         [-73.67372, -37.59433],
+         [-73.60255, -39.95545]]),
+    summer15 = ee.Image("users/ddrojass/SUMMER15"),
+    autumn16 = ee.Image("users/ddrojass/AUTUMN16"),
+    winter16 = ee.Image("users/ddrojass/WINTER16"),
+    spring16 = ee.Image("users/ddrojass/SPRING16"),
+    summer16 = ee.Image("users/ddrojass/SUMMER16"),
+    autumn17 = ee.Image("users/ddrojass/AUTUMN17"),
+    winter17 = ee.Image("users/ddrojass/WINTER17"),
+    spring17 = ee.Image("users/ddrojass/SPRING17"),
+    summer17 = ee.Image("users/ddrojass/SUMMER17"),
+    autumn18 = ee.Image("users/ddrojass/AUTUMN18"),
+    winter18 = ee.Image("users/ddrojass/WINTER18"),
+    spring18 = ee.Image("users/ddrojass/SPRING18"),
+    summer18 = ee.Image("users/ddrojass/SUMMER18"),
+    autumn19 = ee.Image("users/ddrojass/AUTUMN19"),
+    winter19 = ee.Image("users/ddrojass/WINTER19"),
+    spring19 = ee.Image("users/ddrojass/SPRING19"),
+    summer19 = ee.Image("users/ddrojass/SUMMER19"),
+    autumn20 = ee.Image("users/ddrojass/AUTUMN20"),
+    winter20 = ee.Image("users/ddrojass/WINTER20"),
+    spring20 = ee.Image("users/ddrojass/SPRING20"),
+    peninsula_antofagasta = 
+    /* color: #d63000 */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-70.65423001951713, -23.400046546459954],
+          [-70.65423001951713, -23.52885388953637],
+          [-70.5865954369976, -23.52885388953637],
+          [-70.5865954369976, -23.400046546459954]]], null, false),
+    playas_blancas = 
+    /* color: #98ff00 */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-71.21129401495931, -28.0946016011015],
+          [-71.21129401495931, -28.275262151299398],
+          [-71.14537604620931, -28.275262151299398],
+          [-71.14537604620931, -28.0946016011015]]], null, false),
+    hornillo = 
+    /* color: #ffc82d */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-71.66046724764766, -31.24384704778988],
+          [-71.66046724764766, -31.325119791949145],
+          [-71.61240206210077, -31.325119791949145],
+          [-71.61240206210077, -31.24384704778988]]], null, false),
+    algarrobo = 
+    /* color: #bf04c2 */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-71.70676428970081, -33.350359228267706],
+          [-71.70676428970081, -33.383620035695515],
+          [-71.67655188735706, -33.383620035695515],
+          [-71.67655188735706, -33.350359228267706]]], null, false),
+    lebu = 
+    /* color: #00ffff */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-73.72079055486697, -37.462244289178],
+          [-73.72079055486697, -37.67450281034312],
+          [-73.57522170721072, -37.67450281034312],
+          [-73.57522170721072, -37.462244289178]]], null, false),
+    caleta_huiro = 
+    /* color: #0b4a8b */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-73.69338588448531, -39.91225668460969],
+          [-73.69338588448531, -39.9775334037722],
+          [-73.52996425362593, -39.9775334037722],
+          [-73.52996425362593, -39.91225668460969]]], null, false);
