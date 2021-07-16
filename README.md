@@ -1,3 +1,3 @@
 # kelp_distribution
 
-main scripts used throughout the BIO295A project for the distribution of Macrocystis pyrifera
+scripts uusados para el BIO295A, Modelamiento de la distribución geográfica de 5 poblaciones del huiro gigante (Macrocystis pyrifera)
